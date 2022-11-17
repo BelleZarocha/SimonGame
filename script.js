@@ -29,7 +29,6 @@ var simonGame = function() {
     });
   };
   this.buttonClick = function(button) {
-    // console.log(`Button id${button} click`)
     playerResponse.push(button);
     checkState();
   };
@@ -97,20 +96,20 @@ var simonGame = function() {
     i = this.playerResponse.length - 1;
     if (this.playerResponse[i] == sequence[i]) {
       if (this.playerResponse.length == sequence.length) {
-        if (this.playerResponse.length == 20) {
-          $(".countRound").html("Win");
-          setTimeout(function() {
-            this.initiateGame();
-          }, 500);
+        if (this.playerResponse.length == 10) {
+          $(".countRound").html("You Win!");
+          // setTimeout(function() {
+          //   this.initiateGame();
+          // }, 500);
         } else {
           nextRound();
         }
       }
     } else {
-      if (strict == true) {
+      if (strict === true) {
         $(".countRound").html("Game Over");
         setTimeout(function() {
-          this.initiateGame();
+          // this.initiateGame();
         }, 1000);
       } else {
         $(".countRound").html("Try Again");
@@ -119,10 +118,7 @@ var simonGame = function() {
       }
     }
   };
-  
-  if($(".countRoun") === "Win") {
-    
-  }
+
 };
 
 

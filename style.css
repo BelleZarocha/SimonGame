@@ -53,6 +53,7 @@ body {
 .row {
 	justify-content: center;
 }
+/********************************************* countRound you pass ******************************************/
 .countRound {
 	width: 20vmax;
 	height: 5vmax;
@@ -66,7 +67,8 @@ body {
 	font-size: 2vmax;
 	font-family: "Gruppo", "sans-serif";
 	color: white;
-}	
+}
+/********************************************* strict button ******************************************/	
 .toggleStrict {
 	text-align: center;
 	color: rgba(0, 0, 0, .5);
@@ -79,6 +81,7 @@ body {
 	color: rgba(0, 0, 0, 5);
 	cursor: pointer;
 }
+/********************************************* start button ******************************************/	
 .start {
 	text-align: center;
 	padding-top: 5px;
@@ -90,3 +93,4 @@ body {
 	color: rgba(0, 0, 0, 1);
 	cursor: pointer;
 }
+
