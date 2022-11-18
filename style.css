@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Sigmar+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100vh;
+}
+/********************************************* Head Topic ******************************************/
+.name-game {
+	text-align: center;
+	font-family: "Sigmar One","sans-serif";
+	padding-top: 1vmax;
+	font-size: 4vmax;
+}
+.about-game {
+	font-family: "Gruppo", "sans-serif";
+	font-size: 3vmax;
+	text-align: center;
+	margin-top: -1vmax;
+	margin-bottom: 2vmax;
+}
+/********************************************* Game Display ******************************************/
+.display {
+	background: #f6f5f5;
+	width: 3vmax;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px black;
+	margin: 0 auto;
+}
+.game-button {
+	width: 10px;
+	height: 175px;
+	float: left;
+	border: 5px solid #f6f5f5;
+}
+.pressed {
+	opacity: .5 !important;
+}
+#pink {
+	background: #fb6f92;
+}
+#green {
+	background: #07beb8;
+}
+#yellow{
+	background: #fae588;
+}
+#blue {
+	background: #00b4d8;
+}
+.row {
+	justify-content: center;
+}
+/********************************************* countRound you pass ******************************************/
+.countRound {
+	width: 20vmax;
+	height: 5vmax;
+	position: absolute;
+	z-index: 5;
+	background-color: white;
+	border-radius: 1vmax;
+	padding: 1vmax;
+	margin-top: -2vmax;
+	text-align: center;
+	font-size: 2vmax;
+	font-family: "Gruppo", "sans-serif";
+	color: white;
+}
+/********************************************* strict button ******************************************/	
+.toggleStrict {
+	text-align: center;
+	color: rgba(0, 0, 0, .5);
+	padding-top: 5px;
+	font-family: "Gruppo", "sans-serif";
+	color: rgba(0, 0, 0, .5);
+	font-size: 2vmax;
+}
+.toggleStrict:hover {
+	color: rgba(0, 0, 0, 5);
+	cursor: pointer;
+}
+/********************************************* start button ******************************************/	
+.start {
+	text-align: center;
+	padding-top: 5px;
+	font-family: "Gruppo", "sans-serif";
+	color: rgba(0, 0, 0, .5);
+	font-size: 2vmax;
+}
+.start:hover {
+	color: rgba(0, 0, 0, 1);
+	cursor: pointer;
+}
+
